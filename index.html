@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'northwest regular.otf';
+  padding: 10px;
+  background: thistle;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  color: thistle;
+  background-image: url('NEW YORK CITY_ ✨✨.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: thistle;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: plum;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: thistle;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.img {
+  height: 250px;
+  width: 500px;
+  padding: 20px;
+}
+
+h2{
+  text-decoration: none;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: black;
+  color: thistle;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 10vh;
+  text-align: center;
+  color: thistle;
+  background: #000000;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Website</h1>
+  <p>Resize the browser window to see the effect.</p>
+</div>
+
+<div class="topnav">
+  <a href="https://www.instagram.com/bi.la07/?next=%2F">instagram</a>
+  <a href="tel:+62 821-2774-6424">call</a>
+  <a href="gallery.html">gallery</a>
+  <a href="https://www.instagram.com/onyourm__ark?igsh=MWx0dnA5cm9tZ2RjbQ==" style="float:right">my boo</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>DESTINATION</h2>
+      <h5>Pinterest city, Sep 5, 2024</h5>
+      <img src="download.jpeg" height="250px" width="665px">
+      <p>Someone said:</p>
+      <p>if i have to lie, steal, cheat or kill, as god as my witness, i'll never be hungry again!.</p>
+    </div>
+    <div class="card">
+      <h2>OTHER WORLD</h2>
+      <h5>Pinterest, Sep 5, 2024</h5>
+      <img src="download.jpeg" height="250px" width="665px">
+      <p>karen lamb said:</p>
+      <p>A year from now, you may wish you had started today.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>my fav</h2>
+      <div class="img-card"><img src="matcha cake.jpg" height="250px" width="265px"></div>  
+      <p>DON'T SAY! 'matcha like a grass!' cuz i can thing if u real animal (u know grass flavor)</p>
+    </div>
+    <div class="card">
+      <h3>muse</h3>
+      <div class="img-card"><img src="download (3).jpeg" height="250px" width="250px"><p></p></div>
+      <div class="img-card"><img src="78df622c-7d8d-42c9-a8c0-fd6c0bf54f54.jpeg" height="250px" width="250px"><p></p></div>
+      <div class="img-card"><p></p></div>
+    </div>
+    <div class="card">
+      <h3>part of Me</h3>
+      <div class="img-card"><img src="my.jpg" height="250px" width="250px"><p></p></div>
+      <div class="img-card"><img src="IMG-20231126-WA0049.jpg" height="250px" width="250px"></div>
+      <p>Some people come and go.</p>
+    </div>
+  </div>
+</div>
+<!--<a href="webtomark.html">-->
+<div class="footer">
+  <h2>the ending happly ever after just in fictional story cuz life need adventure</h2>
+</div></a>
+
+</body>
+</html>
+
+
